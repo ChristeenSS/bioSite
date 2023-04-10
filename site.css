@@ -1,0 +1,85 @@
+body {
+    background-color: #ee65a9;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    min-height: 5vh;
+    background-color: #6d1f49;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+img {
+    max-width: 300px;
+    max-height: 350px;
+    align-self: center;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#profile {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#left {
+    width: 40%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#right {
+    width: 40%;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-height: 100%;
+    background-color: #E35DB9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 1em;
+    margin: 1em;
+}
+#content{
+    min-height: 75vh;
+}
+
+footer {
+    min-height: 5vh;
+    background-color: #6d1f49;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+}
